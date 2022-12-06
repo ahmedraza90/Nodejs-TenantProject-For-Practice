@@ -1,0 +1,51 @@
+{
+  "userId": "43rfdfe34fd",
+  "currency": "US Dollar",
+  "propertyPhoto": "img url",
+  "propertyImageGallery": [
+    "img1 url",
+    "img2 url",
+    "img3 url"
+  ],
+  "name": "Property name",
+  "builtYear": 2020,
+  "MIsNumber": "123afef",
+  "streetAddress": "Property street address",
+  "city": "Property CIty",
+  "state": "Property State",
+  "zip": "704343",
+  "country": "Pakistan",
+  "propertyType": "Single Unit Type",
+  "beds": "3",
+  "baths": "4",
+  "size": "200",
+  "rent": 300.00,
+  "deposit": 200.00,
+  "unitInfo": [
+    {
+      "unitNumber": 1,
+      "unitType": "Apartment",
+      "size": "200",
+      "beds": "3",
+      "baths": "4",
+      "rent": 300.00,
+      "deposit": 200.00
+    }
+  ],
+  "parking": "Garage",
+  "laundry": "On-site",
+  "airConditioning": "Central air",
+  "propertyFeatures": [
+    "Alarm",
+    "Internet"
+  ],
+  "propertyAmenities": [
+    "Elevator",
+    "Pool"
+  ],
+  "propertyAttachments": [
+    "attachment1 url",
+    "attachment2 url",
+    "attachment3 url"
+  ]
+}

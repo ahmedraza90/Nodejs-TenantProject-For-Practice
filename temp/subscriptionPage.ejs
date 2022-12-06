@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+
+			 async function key(){
+				try{
+				const clientSecret = await fetch("http://localhost:8000/setupIntent")
+				return clientSecret
+				}catch(e){
+					return e
+				}
+			}
+			async function intent(){
+				// clientSecret is the client_secret from the SetupIntent you created in Step 1.
+				const result = await terminal.collectSetupIntentPaymentMethod(clientSecret, true);
+				if (result.error) {
+					// Placeholder for handling result.error
+				} else {
+					return result
+				}
+}
+		</script>
+	</head>
+	<body>
+		<button type="button" onclick="key()">button</button>
+		
+	</body>
+</html>

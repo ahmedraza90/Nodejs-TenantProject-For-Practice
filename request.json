@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "type": "Advanced",
+    "categoryId": "Issue title1",
+    "subCategoryId": "Issue title1",
+    "categoryIssue": "Issue title1",
+    "subCategoryIssue": "Issue title1",
+    "issueId": "Issue title1",
+    "issueTitle": "Issue title1",
+    "issueDetail": "Issue title1",
+    "tenantId": "Issue title1",
+    "isShare": true,
+    "availableDates": [
+      {
+        "date": "01-02-2022",
+        "options": [
+          {
+            "start": "8pm",
+            "end": "12pm"
+          },
+          {
+            "start": "12pm",
+            "end": "4pm"
+          },
+          {
+            "start": "4pm",
+            "end": "8pm"
+          }
+        ]
+      },
+      {
+        "date": "05-02-2022",
+        "options": [
+          {
+            "start": "8pm",
+            "end": "12pm"
+          },
+          {
+            "start": "12pm",
+            "end": "4pm"
+          },
+          {
+            "start": "4pm",
+            "end": "8pm"
+          }
+        ]
+      }
+    ],
+    "pets": [
+      "Cat",
+      "Dog",
+      "Other"
+    ],
+    "property": "some",
+    "timeframe": {
+      "startDate": "14-01-2022",
+      "startDate": "20-01-2022",
+      "priority": "Normal"
+    },
+    "materials": [
+      {
+        "title": "Material Name1",
+        "quantity": 1
+      },
+      {
+        "title": "Material Name2",
+        "quantity": 2
+      },
+      {
+        "title": "Material Name3",
+        "quantity": 2
+      }
+    ],
+    "statusChangeEmailTenant": false,
+    "newMessageEmailTenant": false,
+    "newInvoiceEmailTenant": false,
+    "statusChangeEmailAssignee": false,
+    "newMessageEmailAssignee": false,
+    "statusChangeEmailYou": false,
+    "newMessageEmailYou": true,
+    "step": 1
+  }
+]
